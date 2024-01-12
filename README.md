@@ -27,12 +27,12 @@
 ```bash
 $ npm install
 $ sudo docker-compose up -d
-$ npm run start
+$ npm run start:dev
 
 ```
 
 ## Test
-make sure to start server before testing
+Make sure to have a running instance of the server before testing
 ```bash
 $ npx typeorm-ts-node-esm migration:run -d src/database/migDataSource.ts
 $ npm test
