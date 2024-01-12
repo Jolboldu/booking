@@ -14,7 +14,7 @@ import { dirname } from 'path';
       entities: [dirname(__dirname) + '/**/*.entity.{ts,js}'],
       synchronize: true,
       logging: true,
-      migrationsRun: true,
+      migrationsRun: false,
       migrations: [__dirname + '/migrations/*.{ts,js}'],
     }),
   ],
